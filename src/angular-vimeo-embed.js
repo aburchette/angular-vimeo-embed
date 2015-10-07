@@ -14,7 +14,7 @@
       restrict: 'EA',
       replace: true,
       scope: {
-          videoId: '=',
+          videoId: '@',
           videoUrl: '=',
           playerOpts: '=',
           playerHeight: '=',
